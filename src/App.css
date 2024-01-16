@@ -1,0 +1,146 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+/* navbar   */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 10vw;
+}
+.logo img{
+  width: 150px;
+  align-items: center;
+  margin-top: 20px;
+}
+.nav-items{
+  display: flex;
+  color: rgb(109, 103, 103);
+}
+.nav-items ul{
+  display: flex;
+  list-style: none;
+}
+.nav-items ul li{
+  padding: 10px 20px;
+}
+.button a{
+padding: 10px 30px;
+background: linear-gradient( rgb(6, 1, 100) 0%, rgba(9,9,121,1) 50%, rgb(0, 8, 255) 100%);
+color: white;
+border-radius: 25px;
+text-decoration: none;
+}
+.button{
+  margin: 27px 0;
+}
+
+.dir-struct{
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 8vh 10vw;
+}
+
+.page-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgba(9,9,121,1);
+  margin: 0 10vw;
+}
+.tabs{
+  margin: 5vh 10vw;
+  display: flex;
+  justify-content: center;
+}
+.tab-title{
+  padding: 5px 10px ;
+  margin: 0 10px;
+  color:rgb(6, 1, 100) ;
+  font-weight: 600;
+}
+.line{
+  width: 60%;
+  margin: 0 20%;
+  height: 3px;
+  background-color: rgb(15, 1, 66);
+}
+
+.centerbox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.coloredbox{
+  margin: 1vh 10vw;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  width: 420px;
+  height: 250px;
+  color: #fff;
+  border-radius: 20px;
+  background: linear-gradient( rgb(6, 1, 100) 0%, rgba(9,9,121,1) 50%, rgb(0, 8, 255) 100%);
+}
+.icon-row{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.icon-row i{
+  margin: 10px 20px;
+  font-size: 1.5rem;
+}
+.expression{
+  text-align: center;
+  margin-top: 65px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.bottom{
+  display: flex;
+  width: 420px;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
+}
+.angle{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: rgba(9,9,121,1) ;
+}
+.middle-bar{
+  margin: 5vh 8vw;
+  display: flex;
+  justify-content: space-between;
+}
+.middle-bar img{
+  width: 180px;
+  height: 65px;
+  margin: 5px;
+}
+.faq-section{
+  margin: 8vh 10vw;
+}
+.title-faq{
+  color:rgb(11, 4, 147) ;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.faqs{
+  border: 2px solid rgb(6, 1, 100);
+  display: flex;
+  margin: 10px ;
+  border-radius: 10px;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  width: 47vw;
+  height: 35px;
+}
